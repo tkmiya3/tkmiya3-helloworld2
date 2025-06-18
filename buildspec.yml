@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "GitHub2 Hello, World! (phase=install)"
+  pre_build:
+    commands:
+      - echo "GitHub2 Hello, World! (phase=pre_build)"
+  build:
+    commands:
+      - echo "GitHub2 Hello, World! (phase=build)"
+      - ls -al
+  post_build:
+    commands:
+      - echo "GitHub2 Hello, World! (phase=post_build)"
